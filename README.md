@@ -1,0 +1,16 @@
+# [nativefiledialog-beef](https://github.com/jazzbre/nativefiledialog-beef) NativeFileDialog wrapper for the Beef Programming Language
+
+[nativefiledialog](https://github.com/mlabbe/nativefiledialog.git)
+
+## Prerequisites
+- To initialize submodules run *git submodule update --init --recursive*
+
+## Windows
+- Visual Studio 2019 Community/Professional (it can be built with other versions though, check build_windows_vs2019.cmd for more information)
+- To build prerequisites run *build_windows_vs2019.cmd*
+
+## MacOS
+- To build prerequisites run *./build_macos.sh*
+
+## Linux
+- To build prerequisites run *./build_linux.sh*

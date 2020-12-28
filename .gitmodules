@@ -1,0 +1,6 @@
+[submodule "submodules/nativefiledialog"]
+	path = submodules/nativefiledialog
+	url = https://github.com/mlabbe/nativefiledialog.git
+[submodule "submodules/bx"]
+	path = submodules/bx
+	url = https://github.com/bkaradzic/bx.git

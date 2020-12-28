@@ -1,0 +1,6 @@
+FileVersion = 1
+Dependencies = {corlib = "*", nativefiledialog-beef = "*"}
+
+[Project]
+Name = "example"
+StartupObject = "example.Program"
