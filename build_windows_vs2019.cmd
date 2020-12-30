@@ -11,7 +11,7 @@ set "VISUALSTUDIO19PATH=c:\Program Files (x86)\Microsoft Visual Studio\2019\Comm
 )
 
 IF EXIST "%VISUALSTUDIO19PATH%" (
-echo Building SoLoud Debug in Visual Studio 2019
+echo Building nativefiledialog Debug in Visual Studio 2019
 "%VISUALSTUDIO19PATH%\devenv" ".build\projects\vs2019\nativefiledialog.sln" /Build "Debug|x64"
 echo ErrorLevel:%ERRORLEVEL%
 IF %ERRORLEVEL% EQU 0 (
@@ -19,7 +19,7 @@ IF %ERRORLEVEL% EQU 0 (
 ) else (
    echo Build failed!
 )
-echo Building SoLoud Release in Visual Studio 2019
+echo Building nativefiledialog Release in Visual Studio 2019
 "%VISUALSTUDIO19PATH%\devenv" ".build\projects\vs2019\nativefiledialog.sln" /Build "Release|x64"
 echo ErrorLevel:%ERRORLEVEL%
 IF %ERRORLEVEL% EQU 0 (
