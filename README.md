@@ -14,3 +14,8 @@
 
 ## Linux
 - To build prerequisites run *./build_linux.sh* (EXPERIMENTAL - tested just that it builds and links on Ubuntu 20.04 LTS with WSL2)
+
+## Usage
+Open workspace and set Example as Startup project and Run!
+MacOS/Linux can be built and run with provided VSCode project (expects Beef git clone in the same root folder as this project).
+>>>>>>> e7469a6... NEW: VSCode multi-platform
