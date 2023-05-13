@@ -6,19 +6,19 @@ TargetType = "BeefLib"
 
 [Configs.Debug.Win64]
 LibPaths = ["$(ProjectDir)\\.build\\win64_vs2019\\bin\\nativefiledialogDebug.lib"]
-OtherLinkFlags = "$(LinkFlags) comctl32.lib"
+OtherLinkFlags = "$(LinkFlags) comctl32.lib Ole32.lib Shell32.lib"
 
 [Configs.Release.Win64]
 LibPaths = ["$(ProjectDir)\\.build\\win64_vs2019\\bin\\nativefiledialogRelease.lib"]
-OtherLinkFlags = "$(LinkFlags) comctl32.lib"
+OtherLinkFlags = "$(LinkFlags) comctl32.lib Ole32.lib Shell32.lib"
 
 [Configs.Paranoid.Win64]
 LibPaths = ["$(ProjectDir)\\.build\\win64_vs2019\\bin\\nativefiledialogRelease.lib"]
-OtherLinkFlags = "$(LinkFlags) comctl32.lib"
+OtherLinkFlags = "$(LinkFlags) comctl32.lib Ole32.lib Shell32.lib"
 
 [Configs.Test.Win64]
 LibPaths = ["$(ProjectDir)\\.build\\win64_vs2019\\bin\\nativefiledialogRelease.lib"]
-OtherLinkFlags = "$(LinkFlags) comctl32.lib"
+OtherLinkFlags = "$(LinkFlags) comctl32.lib Ole32.lib Shell32.lib"
 
 [Configs.Debug.macOS]
 LibPaths = ["$(ProjectDir)\\.build\\osx-x64\\bin\\libnativefiledialogDebug.a"]
