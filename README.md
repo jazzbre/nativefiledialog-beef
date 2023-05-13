@@ -8,7 +8,6 @@
 ## Windows
 - Visual Studio 2019 Community/Professional (it can be built with other versions though, check build_windows_vs2019.cmd for more information)
 - To build prerequisites run *build_windows_vs2019.cmd*
-- You may have to add `Ole32.lib` and `Shell32.lib` to the `Additional Lib Paths` field in the Build tab of your project properties.
 
 ## MacOS
 - To build prerequisites run *./build_macos.sh*
