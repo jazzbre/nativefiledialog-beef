@@ -4,7 +4,7 @@ git reset --hard
 git pull
 cd ..
 
-cd soloud
+cd nativefiledialog
 git reset --hard
 git pull
 cd ..
